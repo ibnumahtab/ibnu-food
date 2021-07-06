@@ -57,9 +57,7 @@ img {
 }
 
 input,
-textarea,
-input:focus,
-textarea:focus {
+input:focus {
     display: block;
     width: 100%;
     margin-bottom: 30px;
@@ -67,10 +65,52 @@ textarea:focus {
     color: #828282;
     font-family: 'Comfortaa', cursive;
     font-size: 22px;
-    background-color: rgba(232, 232, 232, 0.089);
+    background-color: #e8e8e817;
     border: none;
     outline: none;
     box-sizing: border-box;
 }
 
-/* --> Common CSS <-- */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* --> Menu Section <-- */
+#menu-bar {
+    padding: 10px 0;
+    border-bottom: 1px solid #82828246;
+}
+
+.main-menu-items {
+    display: flex;
+}
+
+.main-logo,
+.main-social-links {
+    width: 50%;
+}
+
+.main-social-links {
+    align-self: center;
+}
+
+.main-social-links li {
+    display: inline;
+    padding: 10px 20px;
+    border-right: 1px solid #82828246;
+}
+
+.main-social-links li:first-child {
+    padding-left: 180px;
+}
+
+.main-social-links li:last-child {
+    border: none;
+}
+
+.main-social-links li a {
+    color: #d9212b;
+}
+
+/* --> Hero Section <-- */
