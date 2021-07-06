@@ -37,7 +37,6 @@ span {
 }
 
 a {
-    color: #e8e8e8;
     text-decoration: none;
 }
 
@@ -56,21 +55,23 @@ img {
     width: 100%;
 }
 
-section {
+section,
+footer {
     padding: 70px 0;
 }
 
 input,
 input:focus {
-    display: block;
+    display: inline-block;
     width: 100%;
     margin-bottom: 30px;
-    padding: 10px 10px;
-    color: #828282;
+    padding: 15px 25px;
+    color: #464545;
     font-family: 'Comfortaa', cursive;
     font-size: 22px;
-    background-color: #e8e8e817;
+    background-color: #82828250;
     border: none;
+    border-radius: 40px;
     outline: none;
     box-sizing: border-box;
 }
@@ -94,6 +95,7 @@ input:focus {
     display: inline-block;
     margin-top: 20px;
     padding: 15px 25px;
+    color: #e8e8e8;
     background-image: linear-gradient(to right, #d9212b, #8f161c);
     border-radius: 40px;
 }
@@ -141,10 +143,47 @@ input:focus {
 .item-box {
     margin: 0 25px;
     padding: 20px;
-    box-shadow: 2px 2px 15px #80808083;
+    box-shadow: 2px 2px 15px #8080805d;
     border-radius: 15px;
 }
 
 .item-box img {
     border-radius: 12px;
+}
+
+/* --> Counter Section <-- */
+.counters {
+    padding: 50px 80px;
+    box-shadow: 2px 2px 15px #8080805d;
+    border-radius: 15px;
+}
+
+.counter-item h2 {
+    line-height: .8em;
+    font-size: 55px;
+}
+
+/* --> Subscribe Section <-- */
+#subscribe-section {
+    background: url('images/ibnufood-newsletter-bg.png') no-repeat right/contain;
+    margin: 80px 0;
+}
+
+.subscribe-title {
+    margin-bottom: 80px;
+}
+
+.subscribe-form input[type='text'] {
+    width: 40%;
+}
+
+.subscribe-form input[type='submit'] {
+    width: 15%;
+    margin-left: 20px;
+}
+
+/* --> Subscribe Section <-- */
+#footer-section {
+    background-color: #fdeaec;
+    text-align: center;
 }
