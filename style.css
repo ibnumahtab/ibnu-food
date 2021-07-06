@@ -131,7 +131,22 @@ input:focus {
     padding: 0 40px 0 120px;
 }
 
+/* --> Recipies Section <-- */
+.recipies-title {
+    padding: 0 200px;
+    text-align: center;
+}
 
+.item-box {
+    margin: 0 20px;
+    padding: 15px;
+    box-shadow: 2px 2px 15px #808080;
+    border-radius: 15px;
+}
+
+.item-box img {
+    border-radius: 10px;
+}
 
 
 
