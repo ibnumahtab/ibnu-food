@@ -76,6 +76,11 @@ input:focus {
     box-sizing: border-box;
 }
 
+::selection {
+    color: #e8e8e8;
+    background: #d9212b;
+}
+
 /* --> Common Classes <-- */
 .container {
     max-width: 1200px;
