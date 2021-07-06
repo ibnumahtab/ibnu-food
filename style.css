@@ -12,8 +12,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     margin: 0;
     color: #464545;
     font-family: 'Alata', sans-serif;
@@ -78,7 +77,7 @@ input:focus {
 
 /* --> Common Classes <-- */
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -96,7 +95,7 @@ input:focus {
     margin-top: 20px;
     padding: 15px 25px;
     color: #e8e8e8;
-    background-image: linear-gradient(to right, #d9212b, #8f161c);
+    background-image: linear-gradient(to right, #d9212b, #540d11);
     border-radius: 40px;
 }
 
@@ -153,9 +152,14 @@ input:focus {
 
 /* --> Counter Section <-- */
 .counters {
-    padding: 50px 80px;
+    padding: 50px 120px;
     box-shadow: 2px 2px 15px #8080805d;
     border-radius: 15px;
+}
+
+.counter-item {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .counter-item h2 {
@@ -182,7 +186,7 @@ input:focus {
     margin-left: 20px;
 }
 
-/* --> Subscribe Section <-- */
+/* --> Footer Section <-- */
 #footer-section {
     background-color: #fdeaec;
     text-align: center;
