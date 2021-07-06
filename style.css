@@ -36,6 +36,7 @@ span {
 }
 
 a {
+    color: #d9212b;
     text-decoration: none;
 }
 
@@ -117,10 +118,6 @@ input:focus {
 
 .main-social-links li:last-child {
     border: none;
-}
-
-.main-social-links li a {
-    color: #d9212b;
 }
 
 /* --> About Section <-- */
