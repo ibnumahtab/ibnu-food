@@ -1,0 +1,76 @@
+/* --> Common CSS <-- */
+body {
+    margin: 0;
+    padding: 0;
+    color: #757474;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    color: #464545;
+    font-family: 'Alata', sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+span {
+    color: #d9212b;
+}
+
+a {
+    color: #e8e8e8;
+    text-decoration: none;
+}
+
+a:hover,
+.btn:hover {
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    color: #828282;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    background-color: rgba(232, 232, 232, 0.089);
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* --> Common CSS <-- */
