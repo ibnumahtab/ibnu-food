@@ -56,6 +56,10 @@ img {
     width: 100%;
 }
 
+section {
+    padding: 70px 0;
+}
+
 input,
 input:focus {
     display: block;
@@ -71,28 +75,33 @@ input:focus {
     box-sizing: border-box;
 }
 
+/* --> Common Classes <-- */
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.flex-display {
+    display: flex;
+}
+
+.flex-items {
+    width: 50%;
+    align-self: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-image: linear-gradient(to right, #d9212b, #8f161c);
+    border-radius: 30px;
 }
 
 /* --> Menu Section <-- */
 #menu-bar {
     padding: 10px 0;
     border-bottom: 1px solid #82828246;
-}
-
-.main-menu-items {
-    display: flex;
-}
-
-.main-logo,
-.main-social-links {
-    width: 50%;
-}
-
-.main-social-links {
-    align-self: center;
 }
 
 .main-social-links li {
@@ -113,4 +122,23 @@ input:focus {
     color: #d9212b;
 }
 
-/* --> Hero Section <-- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
