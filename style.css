@@ -138,29 +138,12 @@ input:focus {
 }
 
 .item-box {
-    margin: 0 20px;
-    padding: 15px;
-    box-shadow: 2px 2px 15px #808080;
+    margin: 0 25px;
+    padding: 20px;
+    box-shadow: 2px 2px 15px #80808083;
     border-radius: 15px;
 }
 
 .item-box img {
-    border-radius: 10px;
+    border-radius: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
