@@ -133,6 +133,7 @@ input:focus {
 
 /* --> Recipies Section <-- */
 .recipies-title {
+    margin-bottom: 50px;
     padding: 0 200px;
     text-align: center;
 }
